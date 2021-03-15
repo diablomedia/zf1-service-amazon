@@ -18,7 +18,7 @@
         "diablomedia/zendframework1-http": "^1.0.0",
         "diablomedia/zendframework1-crypt": "^1.0.0",
         "diablomedia/zendframework1-loader": "^1.0.0",
-        "diablomedia/zendframework1-xml": "^1.0.0",
+        "diablomedia/zendframework1-xml": "^1.0.5",
         "diablomedia/zendframework1-json": "^1.0.3",
         "diablomedia/zendframework1-rest": "^1.0.0",
         "php": "^7.0 || ^8.0"
