@@ -9,19 +9,20 @@
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
     "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "ext-dom": "*",
         "ext-SimpleXML": "*",
         "ext-libxml": "*",
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
-        "diablomedia/zendframework1-service": "^1.0.0",
-        "diablomedia/zendframework1-uri": "^1.0.0",
-        "diablomedia/zendframework1-http": "^1.0.0",
-        "diablomedia/zendframework1-crypt": "^1.0.0",
-        "diablomedia/zendframework1-loader": "^1.0.0",
-        "diablomedia/zendframework1-xml": "^1.0.5",
-        "diablomedia/zendframework1-json": "^1.0.3",
-        "diablomedia/zendframework1-rest": "^1.0.0"
+        "diablomedia/zendframework1-service": "dev-php83 as 1.0.0",
+        "diablomedia/zendframework1-uri": "dev-php83 as 1.0.0",
+        "diablomedia/zendframework1-http": "dev-php83 as 1.0.0",
+        "diablomedia/zendframework1-crypt": "dev-php83 as 1.0.0",
+        "diablomedia/zendframework1-loader": "dev-php83 as 1.0.0",
+        "diablomedia/zendframework1-xml": "dev-php83 as 1.0.5",
+        "diablomedia/zendframework1-json": "dev-php83 as 1.0.3",
+        "diablomedia/zendframework1-rest": "dev-php83 as 1.0.0"
     },
     "autoload": {
         "psr-0": {
