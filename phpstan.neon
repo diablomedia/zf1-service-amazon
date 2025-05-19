@@ -1,6 +1,7 @@
 parameters:
     level: 4
     inferPrivatePropertyTypeFromConstructor: true
+    treatPhpDocTypesAsCertain: false
     paths:
         - ./
     excludePaths:
@@ -9,26 +10,12 @@ parameters:
     ignoreErrors:
         - '#Constructor of class Zend_Service_Amazon_S3 has an unused parameter \$region\.#'
         # The Xml_Security::scan method can return both DOMDocument or SimpleXMLElement, it depends on what is passed in as the second parameter
-        - '#Strict comparison using === between string and null will always evaluate to false\.#'
         - '#Access to an undefined property DOMNode::\$data\.#'
         -
             message: '#Strict comparison using === between null and .asin. will always evaluate to false\.#'
             path: %currentWorkingDirectory%/src/Zend/Service/Amazon/Query.php
-        -
-            message: '#Negated boolean expression is always false\.#'
-            path: %currentWorkingDirectory%/src/Zend/Service/Amazon/S3/Stream.php
         # Didn't take the time to investigate these
-        -
-            message: '#Call to function is_array\(\) with \(SimpleXMLElement\|null\) will always evaluate to false\.#'
-            path: ./src/Zend/Service/Amazon/SimpleDb.php
-        -
-            message: '#Result of && is always false\.#'
-            path: ./src/Zend/Service/Amazon/SimpleDb.php
         -
             message: '#Access to an undefined property DOMNode::\$tagName\.#'
             path: ./src/Zend/Service/Amazon/Item.php
             count: 6
-        -
-            message: '#Variable \$valueNodes in empty\(\) is never defined\.#'
-            path: ./src/Zend/Service/Amazon/SimpleDb.php
-            count: 1
