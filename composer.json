@@ -17,7 +17,7 @@
         "diablomedia/zendframework1-service": "^1.0.4",
         "diablomedia/zendframework1-uri": "^1.0.5",
         "diablomedia/zendframework1-http": "^1.0.5",
-        "diablomedia/zendframework1-crypt": "^1.0.5",
+        "diablomedia/zendframework1-crypt": "^1.0.8",
         "diablomedia/zendframework1-loader": "^1.0.5",
         "diablomedia/zendframework1-xml": "^1.0.5",
         "diablomedia/zendframework1-json": "^1.0.7",
