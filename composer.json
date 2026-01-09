@@ -13,15 +13,15 @@
         "ext-dom": "*",
         "ext-SimpleXML": "*",
         "ext-libxml": "*",
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
-        "diablomedia/zendframework1-service": "^1.0.4",
-        "diablomedia/zendframework1-uri": "^1.0.5",
-        "diablomedia/zendframework1-http": "^1.0.5",
-        "diablomedia/zendframework1-crypt": "^1.0.8",
-        "diablomedia/zendframework1-loader": "^1.0.5",
-        "diablomedia/zendframework1-xml": "^1.0.5",
-        "diablomedia/zendframework1-json": "^1.0.7",
-        "diablomedia/zendframework1-rest": "^1.0.5"
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+        "diablomedia/zendframework1-service": "dev-php-85 as 1.0.4",
+        "diablomedia/zendframework1-uri": "dev-php-85 as 1.0.5",
+        "diablomedia/zendframework1-http": "dev-php-85 as 1.0.5",
+        "diablomedia/zendframework1-crypt": "dev-php-85 as 1.0.8",
+        "diablomedia/zendframework1-loader": "dev-php-85 as 1.0.5",
+        "diablomedia/zendframework1-xml": "dev-php-85 as 1.0.5",
+        "diablomedia/zendframework1-json": "dev-php-85 as 1.0.7",
+        "diablomedia/zendframework1-rest": "dev-php-85 as 1.0.5"
     },
     "autoload": {
         "psr-0": {
@@ -58,5 +58,6 @@
         "allow-plugins": {
             "phpro/grumphp-shim": true
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
