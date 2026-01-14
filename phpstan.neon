@@ -10,7 +10,7 @@ parameters:
     ignoreErrors:
         - '#Constructor of class Zend_Service_Amazon_S3 has an unused parameter \$region\.#'
         # The Xml_Security::scan method can return both DOMDocument or SimpleXMLElement, it depends on what is passed in as the second parameter
-        - '#Access to an undefined property DOMNode::\$data\.#'
+        - '#Access to an undefined property DOMNameSpaceNode\|DOMNode::\$data\.#'
         -
             message: '#Strict comparison using === between null and .asin. will always evaluate to false\.#'
             path: %currentWorkingDirectory%/src/Zend/Service/Amazon/Query.php
