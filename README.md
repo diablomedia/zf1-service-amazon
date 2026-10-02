@@ -6,4 +6,7 @@
 [![Total Downloads](https://poser.pugx.org/diablomedia/zendframework1-service-amazon/downloads)](https://packagist.org/packages/diablomedia/zendframework1-service-amazon)
 [![License](https://poser.pugx.org/diablomedia/zendframework1-service-amazon/license)](https://packagist.org/packages/diablomedia/zendframework1-service-amazon)
 
+> [!WARNING]  
+> We've archived this repo as we're no longer using or maintaining Zend Framework 1
+
 This is just the Zend_Service_Amazon component extracted from our fork of the Zend Framework 1 repo (https://github.com/diablomedia/zf1).
